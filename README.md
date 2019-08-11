@@ -1,15 +1,17 @@
 ## MNIST Flask Demo:
 
+@author Zongduo Li
+
 Highlights:
-1. We use Keras with a TensorFlow backend to train a small 8 layer CNN to recognize handwritten character digits.
-2. We then save the model structure to a json file and weights to a h5 file.
-3. We use Flask to load the model and to predict the input handwritten character digits.
-4. We save all the input data and output data Casandra.
-5. We use HTML to help display the whole process.
+1. I use Keras with a TensorFlow backend to train a small 8 layer CNN to recognize handwritten character digits.
+2. I then save the model structure to a json file and weights to a h5 file.
+3. I use Flask to load the model and to predict the input handwritten character digits.
+4. I save all the input data and output data Casandra.
+5. I use HTML to help display the whole process.
 
 
 ### 1. How to run the application：
-### We Use Docker! :)
+###Use Docker! :)
 
 1⃣️Install Docker: https://docs.docker.com/install/overview/
 
@@ -50,5 +52,3 @@ Note: It is possible than when you run the above command, your terminal will tel
 use mnist_database
 
 select * from mnist1
-
-## mnisk-flask
