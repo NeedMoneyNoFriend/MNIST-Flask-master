@@ -2,6 +2,8 @@
 
 @author Zongduo Li
 
+![image](https://github.com/NeedMoneyNoFriend/MNIST-Flask-master/blob/master/view.gif)
+
 Highlights:
 1. I use Keras with a TensorFlow backend to train a small 8 layer CNN to recognize handwritten character digits.
 2. I then save the model structure to a json file and weights to a h5 file.
